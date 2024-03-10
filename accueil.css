@@ -3,7 +3,10 @@
 body {
     font-family: "Raleway", sans-serif !important;
   }
-  
+  li {
+    color :#000;
+    opacity: 1;
+  }
   ul {
     list-style-type: none;
   }
