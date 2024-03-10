@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INMD - Contactez-nous</title>
+    <title>INMD - Inscription</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,26 +14,27 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Se connecter</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="contact">
+    <section id="inscription">
         <div class="container">
-            <h2>Contactez-nous</h2>
-            <form method="POST" action="">
+            <h2>Inscrivez-vous</h2>
+            <form method="POST" action="inscription.php"> 
                 <label for="nom">Nom:</label>
                 <input type="text" id="nom" name="nom" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <label for="mot_de_passe">Mot de passe:</label>
+                <input type="password" id="mot_de_passe" name="mot_de_passe" required>
 
-                <button type="submit">Envoyer</button>
+                <button type="submit">S'inscrire</button>
             </form>
+            <p>Déjà un compte ? <a href="connexion.html">Connectez-vous ici</a></p>
         </div>
     </section>
 

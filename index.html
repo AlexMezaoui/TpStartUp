@@ -1,52 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nom de ta Startup</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #007bff;
-            padding: 1em;
-            text-align: center;
-            color: white;
-        }
-
-        section {
-            text-align: center;
-            padding: 2em;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-    </style>
+    <title>I Need More Data</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Nom de ta Startup</h1>
-        <p>Transformons ensemble l'avenir avec notre innovation</p>
+        <h1>I Need More Data</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li> 
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Se connecter</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <h2>Bienvenue sur notre site</h2>
-        <p>Découvrez ce que nous avons à offrir et comment nous pouvons améliorer votre vie.</p>
-        <button>En savoir plus</button>
+    <section id="accueil">
+        <div class="container">
+            <h2>Bienvenue chez INMD</h2>
+            <p>Nous fournissons des solutions de cloud computing fiables et sécurisées pour répondre à tous vos besoins en matière de stockage et de traitement de données.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <ul>
+                <li>Stockage en cloud</li>
+                <li>Calcul en cloud</li>
+                <li>Sauvegarde et récupération de données</li>
+                <li>Sécurité et conformité</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form method="POST">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; I NEED MORE DATAS.</p>
+        <p>&copy; 2024 INMD. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
