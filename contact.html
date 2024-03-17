@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INMD - Contactez-nous</title>
-    <link rel="stylesheet" href="styles.css">
+   
+
+    <link rel="stylesheet" href="accueil.css">
+    <title>Comffee</title>
 </head>
 <body>
-    <header>
-        <h1>INMD</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Se connecter</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="main">
+        <div class="section1">
+            <div class="header">
+                <a href="youtube"><div class="logo">NMD</div></a>
+                <div class="nav-btn">
+                    <ul>
+                        <li><a href="test.html">Acceuil</a></li>
+                        <li><a href="services.html">Nos Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero-main">
+                <div class="hero-contents">
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contactez-nous</h2>
-            <form method="POST" action="">
-                <label for="nom">Nom:</label>
-                <input type="text" id="nom" name="nom" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Envoyer</button>
-            </form>
+                <div class="hero-img">
+                    <p class="brandName">Contactez nous !</p>
+                </div>
+                <div class="hero-text"><p>Nous sommes présents sur différents réseaux...</p></div>
+                
+                <a href="services.html" class="hero-img-btn">Order Now!</a>
+                </div>
+            </div>
         </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 INMD. Tous droits réservés.</p>
-    </footer>
+        <div class="section2">
+        </div>
+    </div>
+  <script type="application/javascript">
+    window.tiledeskSettings =
+     {
+          projectid: "65a7d7225b264400141cfce5"
+     };
+     (function(d, s, id) {
+          var w=window; var d=document; var i=function() { i.c(arguments); };
+          i.q=[]; i.c=function(args){ i.q.push(args); }; w.Tiledesk=i;
+          var js, fjs=d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js=d.createElement(s); js.id=id; js.async=true;
+          js.src="https://widget.tiledesk.com/v5/launch.js";
+          fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'tiledesk-jssdk'));
+</script>
 </body>
 </html>
