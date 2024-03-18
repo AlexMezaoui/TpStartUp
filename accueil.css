@@ -50,7 +50,7 @@ ul li{
   border: solid cyan 4px;
   border-bottom: -20em;
   border-radius: 5px;
-  cursor: pointer;
+  pointer-events: none;
 }
 
 @keyframes popup{
@@ -137,6 +137,43 @@ animation-name: popup;
   justify-content: center;
   align-items: center;
   margin-right: -30px;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 50px;
+}
+
+.offer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.offer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.offer-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: cyan;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.offer-btn:hover {
+  background-color: #05a;
 }
 /* 
 .section2{
